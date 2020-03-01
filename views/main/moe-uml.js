@@ -26,7 +26,7 @@ const LRUCache = require('lrucache');
 var rendered = LRUCache(1024);
 
 const Flowchart = require('flowchart.js'),
-      Sequence = require('js-sequence-diagrams');
+      Sequence = require('js-sequence-diagram');
 
 var div = document.createElement('div');
 div.style.display = 'none';
